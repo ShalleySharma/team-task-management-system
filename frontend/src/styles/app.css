@@ -1,0 +1,142 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#f4f7fb;
+}
+
+.navbar{
+  background:#1e293b;
+  color:white;
+  padding:15px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.navbar a{
+  color:white;
+  margin-right:20px;
+  text-decoration:none;
+}
+
+.navbar button{
+  padding:8px 14px;
+  border:none;
+  background:red;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.auth-container{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.auth-box{
+  background:white;
+  padding:40px;
+  width:350px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.auth-box h2{
+  margin-bottom:20px;
+  text-align:center;
+}
+
+.auth-box input,
+.auth-box select{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border:1px solid #ddd;
+  border-radius:5px;
+}
+
+.auth-box button{
+  width:100%;
+  padding:12px;
+  background:#2563eb;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.dashboard{
+  padding:40px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.08);
+}
+
+.task-page{
+  padding:40px;
+}
+
+.task-form{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  margin-bottom:30px;
+}
+
+.task-form input,
+.task-form textarea{
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  margin-bottom:15px;
+  border:1px solid #ddd;
+  border-radius:5px;
+}
+
+.task-form button{
+  padding:12px 20px;
+  background:#2563eb;
+  color:white;
+  border:none;
+  border-radius:5px;
+}
+
+.task-list{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:20px;
+}
+
+.task-card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.08);
+}
+
+.task-card h3{
+  margin-bottom:10px;
+}
+
+.status{
+  display:inline-block;
+  margin-top:10px;
+  padding:6px 12px;
+  background:#dbeafe;
+  color:#1e40af;
+  border-radius:20px;
+}
